@@ -1,0 +1,30 @@
+{
+  "name": "blog-backend",
+  "version": "0.0.6",
+  "description": "backend nodejs and sequelize",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbntejeda/Blog-Backend-NodeJS-Mysql.git"
+  },
+  "author": "Ruben Eduardo Tejeda Roa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbntejeda/Blog-Backend-NodeJS-Mysql/issues"
+  },
+  "homepage": "https://github.com/rbntejeda/Blog-Backend-NodeJS-Mysql#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.7"
+  }
+}
